@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 header {
@@ -20,4 +21,51 @@ header > img {
 header > span {
   font-size: 0.875rem;
   color: #ffffff;
+}
+
+article {
+  width: 350px;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+
+ul {
+  display: flex;
+  gap: 0.4rem;
+  align-items: baseline;
+  list-style: none;
+}
+
+.marker-icon {
+  width: 7px;
+}
+
+.country {
+  font-size: 0.625rem;
+  text-transform: uppercase;
+}
+
+a {
+  color: #918e9b;
+  font-size: 0.625rem;
+}
+
+h1 {
+  color: #2b283a;
+  font-size: 1.56rem;
+  padding-bottom: 0.5rem;
+}
+
+article > span {
+  color: #2b283a;
+  font-size: 0.625rem;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+article > p {
+  color: #2b283a;
+  font-size: 0.625rem;
+  line-height: 1.5;
+  padding-top: 0.3rem;
 }
