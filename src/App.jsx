@@ -6,6 +6,7 @@ export function App() {
   const travelData = data.map((data) => {
     return (
       <Entry
+        key={data.id}
         image={data.img}
         country={data.country}
         googleMapsLink={data.googleMapsLink}
